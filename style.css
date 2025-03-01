@@ -1,0 +1,107 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.discount {
+    color: red;
+    font-weight: bold;
+}
+
+.popular {
+    border: 2px solid green;
+    background-color: #f0fff4;
+}
+
+.popular-label {
+    color: green;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.size-color {
+    margin-top: 10px;
+}
+
+.size-color div {
+    margin-bottom: 5px;
+}
+
+.shipping {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.total {
+    margin-top: 2px;
+    text-align: end;
+    font-size: 1.2em;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
+
+.tooltip {
+    display: none;
+    width: 376px;
+    position: absolute;
+    background-color: rgb(235, 248, 244);
+    color: #251f1f;
+    padding: 1px;
+    border: 2px solid #218838;
+    border-radius: 5px;
+    z-index: 10;
+}
+
+.radio-container:hover .tooltip {
+    display: block;
+}
+
+.hr1 {
+    border-width: 1px;
+    color: #242b26;
+}
